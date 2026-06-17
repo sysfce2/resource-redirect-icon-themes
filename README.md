@@ -35,10 +35,15 @@ may not update immediately.
 
 > [!NOTE]
 > By default, icons of folders with thumbnail previews aren't replaced. There
-> are two possible solutions:
+> are several possible solutions:
+> * Enable the "Disable folder thumbnails" option in the Resource Redirect mod
+>   settings. That will make Explorer folders use a generic folder icon instead
+>   of showing thumbnails of their contents.
 > * Enable the "Redirect all loaded resources" option in the Resource Redirect
->   mod settings.
-> * Disable folder thumbnails in the Windows Explorer settings:
+>   mod settings. If the icon theme supports it, thumbnail folders will be
+>   themed as well.
+> * Disable thumbnails in the Windows Explorer settings. Note that all thumbnail
+>   previews will be disabled, such as image previews, not just folders.
 >   * Press Win+R to open the Run dialog.
 >   * Type `control folders` and press Enter.
 >   * In the Folder Options window, go to the "View" tab.
